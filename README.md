@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/30098056/README.md)
 Brandline Studio — Local preview and package
 
 Files:
