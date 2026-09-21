@@ -1,179 +1,407 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Brandline Studio - Affordable premium websites</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Brandline Studio — Websites, Branding &amp; Apparel for South African SMEs</title>
+<meta name="description" content="Premium websites, branding and custom-printed apparel for South African small businesses. Get a free quote today."/>
+<meta name="color-scheme" content="light only"/>
+<meta name="theme-color" content="#F6F5F3"/>
+
+<!-- IMPORTANT: replace https://www.brandlinestudio.co.za/ below with your real
+     domain once it's confirmed — search engines and social previews use these
+     exact URLs, so a wrong domain here will point Google/WhatsApp at nothing. -->
+<link rel="canonical" href="https://www.brandlinestudio.co.za/"/>
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="Brandline Studio"/>
+<meta property="og:title" content="Brandline Studio — Websites, Branding & Apparel for South African SMEs"/>
+<meta property="og:description" content="Premium websites, branding and custom-printed apparel for South African small businesses. Get a free quote today."/>
+<meta property="og:url" content="https://www.brandlinestudio.co.za/"/>
+<meta property="og:image" content="https://www.brandlinestudio.co.za/images/og-cover.jpg"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+<meta property="og:locale" content="en_ZA"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Brandline Studio — Websites, Branding & Apparel for South African SMEs"/>
+<meta name="twitter:description" content="Premium websites, branding and custom-printed apparel for South African small businesses."/>
+<meta name="twitter:image" content="https://www.brandlinestudio.co.za/images/og-cover.jpg"/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Brandline Studio",
+  "image": "https://www.brandlinestudio.co.za/images/og-cover.jpg",
+  "url": "https://www.brandlinestudio.co.za/",
+  "telephone": "+27602645118",
+  "email": "info@brandlinestudio.co.za",
+  "priceRange": "R399 - R999",
+  "areaServed": "ZA",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Cape Town",
+    "addressRegion": "Western Cape",
+    "addressCountry": "ZA"
+  },
+  "description": "Premium websites, branding and custom-printed apparel (mugs, shirts, caps) for South African small businesses.",
+  "sameAs": [
+    "https://www.facebook.com/",
+    "https://www.instagram.com/"
+  ]
+}
+</script>
+
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png"/>
+<link rel="icon" type="image/png" sizes="512x512" href="images/favicon-512.png"/>
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="index.html">
-          <img src="logo.jpg" alt="Brandline Studio logo" class="brand-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-block';" />
-          <svg class="brand-image fallback-logo" width="72" height="56" style="display:none;" viewBox="0 0 240 184" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Brandline Studio logo">
-            <defs>
-              <linearGradient id="g1" x1="0" x2="1">
-                <stop offset="0" stop-color="#b76f33"/>
-                <stop offset="1" stop-color="#c77b3d"/>
-              </linearGradient>
-            </defs>
-            <g transform="translate(8,8)">
-              <path d="M40 8 L120 8 L120 56 Q120 96 80 96 L40 96 Z" fill="none" stroke="#2b2b2b" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M56 104 L152 8" stroke="url(#g1)" stroke-width="12" stroke-linecap="round"/>
-              <path d="M156 64 A28 28 0 0 1 184 92" stroke="#2b2b2b" stroke-width="10" fill="none" stroke-linecap="round"/>
-            </g>
-            <g transform="translate(0,120)">
-              <text x="0" y="28" font-family="Plus Jakarta Sans, sans-serif" font-weight="800" font-size="36" fill="#2b2b2b">BRANDLINE</text>
-              <line x1="0" x2="220" y1="40" y2="40" stroke="#2b2b2b" stroke-width="4"/>
-              <text x="0" y="74" font-family="Inter, sans-serif" font-weight="400" font-size="20" fill="#5a5956">STUDIO</text>
-            </g>
-          </svg>
-          
-      </a>
-      <button class="menu-toggle" aria-expanded="false" aria-controls="primary-menu">
-        <span class="menu-icon"></span>
-        <span class="menu-label">Menu</span>
-      </button>
-      <nav id="primary-menu" class="primary-nav" aria-label="Primary navigation">
-        <a class="nav-link" href="index.html" aria-current="page">Home</a>
-        <a class="nav-link" href="packages.html">Packages</a>
-        <a class="nav-link" href="about.html">About</a>
-        <a class="nav-link" href="portfolio.html">Portfolio</a>
-        <a class="nav-link" href="contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
 
-      <a class="whatsapp-fixed" href="https://wa.me/27602645118" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer">
-    <svg viewBox="0 0 24 24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
-      <path fill="white" d="M17.472 14.382c-.297-.149-1.758-.868-2.03-.967-.273-.099-.472-.149-.672.149-.198.297-.767.967-.94 1.166-.173.198-.347.223-.644.074-.297-.149-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.447-.52.149-.173.198-.298.298-.497.099-.198.05-.372-.025-.521-.075-.149-.8-1.92-1.1-2.62-.29-.69-.58-.6-.8-.61l-.68-.01c-.22 0-.57.08-.87.39s-1.14 1.1-1.14 2.72c0 1.62 1.17 3.18 1.33 3.4.16.23 2.03 3.1 5.02 4.35.7.3 1.25.47 1.68.6.7.23 1.34.2 1.84.12.56-.1 1.76-.72 2.01-1.41.25-.69.25-1.28.18-1.41-.07-.13-.26-.2-.58-.37z"/>
-    </svg>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header><div class="container nav">
+  <a href="#home" class="logo" aria-label="Brandline Studio — home">
+    <img class="logo-full" src="images/logo-full.png" alt="Brandline Studio"/>
+    <span class="logo-compact">
+      <img src="images/logo-mark.png" alt=""/>
+      <span>Brandline Studio</span>
+    </span>
   </a>
+  <nav class="navbar-actions">
+    <span class="navlinks">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#about">About</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </span>
+    <a class="cta small" href="#quote">Get a quote</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobilePanel">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</div>
+<div class="mobile-panel" id="mobilePanel">
+  <a href="#home">Home</a>
+  <a href="#services">Services</a>
+  <a href="#reviews">Reviews</a>
+  <a href="#about">About</a>
+  <a href="#faq">FAQ</a>
+  <a href="#contact">Contact</a>
+  <a href="#quote" style="color:#8a4f1f">Get a quote →</a>
+</div>
+</header>
 
-  <main id="main">
-    <section class="hero">
-      <div class="hero-overlay"></div>
-      <div class="container hero-content">
-        <div class="brandline"></div>
-        <p class="kicker">Affordable � Premium � Reliable</p>
-        <h1>Premium websites for South African SMEs</h1>
-        <p class="sub">Packages from <strong>R399 p/m</strong>. We design, build and maintain your site so you can focus on running your business.</p>
-        <div class="actions">
-          <a class="btn btn-primary" href="https://wa.me/27602645118" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
-          <a class="btn btn-secondary" href="quote.html">Get a quote</a>
-        </div>
+<main id="main">
+
+<section id="home" class="hero"><div class="container">
+  <div class="brandline"></div>
+  <div class="kicker">Websites · Branding · Apparel</div>
+  <h1 class="display">Premium websites for South African SMEs</h1>
+  <p class="sub">We design, build and look after your website — plus your branded apparel and promotional products — so you can focus on running your business.</p>
+  <div class="ctaline">
+    <a class="cta" href="#quote">Get a free quote</a>
+    <a class="cta ghost" href="#services">See packages — from R399/month</a>
+  </div>
+  <p class="hero-help">No jargon, no pressure — tell us what you need and we'll explain your options in plain language.</p>
+</div></section>
+
+<section id="services" class="section alt"><div class="container">
+  <h2 class="h2">Our services</h2>
+  <p class="lead">Two ways we help your business look the part — online and in person.</p>
+
+  <div class="svcgroup">
+    <div class="svclabel">Website packages</div>
+    <div class="ctaline" style="margin-bottom:6px">
+      <span class="pricebug">Websites start from R399/month</span>
+    </div>
+    <p class="small" style="margin-top:8px">Plus a once-off setup fee per package (R1,750–R2,500) — see below.</p>
+    <div class="cards">
+      <div class="card"><h3>Starter</h3>
+        <p class="tag" style="margin-top:0">R1,750 once-off setup fee</p>
+        <ul>
+          <li>1–3 pages</li>
+          <li>Clean, modern template</li>
+          <li>Works well on phones</li>
+        </ul>
       </div>
-    </section>
-
-    <section class="section section-alt">
-      <div class="container">
-        <div class="section-heading">
-          <h2>Packages</h2>
-          <p class="lead">Details and exact setup fees are shown in the quote flow.</p>
-        </div>
-        <div class="cards cards-3">
-          <article class="card"><h3>Starter</h3><p>1-3 pages, modern template, essentials done right.</p><p class="small">From R399 p/m</p></article>
-          <article class="card"><h3>Business</h3><p>4-8 pages, custom sections, lead forms, blog/news.</p><p class="small">From R399 p/m</p></article>
-          <article class="card"><h3>Premium</h3><p>9-15 pages, galleries/bookings, priority support.</p><p class="small">From R399 p/m</p></article>
-        </div>
-        <div class="section-cta">
-          <a class="btn btn-primary" href="packages.html">View full packages</a>
-        </div>
+      <div class="card"><h3>Business</h3>
+        <p class="tag" style="margin-top:0">R1,999 once-off setup fee</p>
+        <ul>
+          <li>4–8 pages</li>
+          <li>Custom sections for your business</li>
+          <li>Enquiry forms and news/blog</li>
+        </ul>
       </div>
-    </section>
-
-    <section class="section">
-      <div class="container grid-2">
-        <div>
-          <h2>About Brandline Studio</h2>
-          <p class="lead">We help SMEs build a credible online presence at an affordable price - without compromising on quality. Fast turnaround, clear communication, and dependable monthly care.</p>
-          <div class="iconrow"><a href="#">Quality</a><a href="#">Care Plans</a><a href="#">Performance</a></div>
-        </div>
-        <div class="card card-highlight">
-          <h3>Process</h3>
-          <ol>
-            <li>Discovery call</li>
-            <li>Wireframe & design</li>
-            <li>Build & QA</li>
-            <li>Launch + maintenance</li>
-          </ol>
-          <a class="btn btn-secondary" href="about.html">Learn more</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-alt">
-      <div class="container">
-        <div class="section-heading">
-          <h2>Portfolio</h2>
-          <p class="lead">We'll add live projects here as they launch.</p>
-        </div>
-        <div class="cards cards-3">
-          <article class="card">Project placeholder</article>
-          <article class="card">Project placeholder</article>
-          <article class="card">Project placeholder</article>
-        </div>
-        <div class="section-cta">
-          <a class="btn btn-primary" href="portfolio.html">See portfolio</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container grid-2">
-        <div>
-          <h2>Contact</h2>
-          <p class="lead">Call/WhatsApp or email us to start your project.</p>
-          <p>Call/WhatsApp: <a href="tel:+27602645118">+27 60 264 5118</a><br />Email: <a href="mailto:brandlinestudio8@gmail.com">brandlinestudio8@gmail.com</a></p>
-          <a class="btn btn-secondary" href="contact.html">Contact us</a>
-        </div>
-        <div class="card card-highlight">
-          <h3>Send a message</h3>
-          <p><strong>Prototype form available.</strong> Use the contact page to send your project brief and we'll reply fast.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section terms-section">
-      <div class="container terms-card">
-        <h3>Terms & Conditions</h3>
-        <p>50% deposit to begin, balance before go-live. Monthly retainers billed in advance; 6-month minimum term then month-to-month with 30-day notice. Scope per agreed package; changes via change orders or time blocks. Third-party costs (domains, premium plugins, stock media) are pass-through. Client owns final site and content upon settlement. Uptime and security maintained on a best-effort basis; critical issues receive priority support.</p>
-        <a class="btn btn-secondary" href="terms.html">Read full terms</a>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <p>� <span id="year"></span> Brandline Studio � brandlinestudio.co.za</p>
-                  <div class="social-links">
-        <a href="https://www.facebook.com/" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
-          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path fill="currentColor" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.989H7.898v-2.889h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.196 2.238.196v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562v1.875h2.773l-.443 2.889h-2.33v6.989C18.343 21.128 22 16.991 22 12z"/>
-          </svg>
-        </a>
-        <a href="https://www.instagram.com/" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
-          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path fill="currentColor" d="M7 2C4.243 2 2 4.243 2 7v10c0 2.757 2.243 5 5 5h10c2.757 0 5-2.243 5-5V7c0-2.757-2.243-5-5-5H7zm8.5 2.5h1.5a.5.5 0 01.5.5v1.5a.5.5 0 01-.5.5h-1.5A.5.5 0 0015 6.5V5a.5.5 0 01.5-.5zm-3.5 1.5A4.5 4.5 0 1112 13.5 4.5 4.5 0 0111 6zm0 7.5a3 3 0 100-6 3 3 0 000 6z"/>
-          </svg>
-        </a>
-        <a href="https://www.linkedin.com/" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
-          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path fill="currentColor" d="M4.983 3.5C3.342 3.5 2 4.84 2 6.486c0 1.64 1.343 2.98 2.983 2.98 1.643 0 2.99-1.34 2.99-2.98 0-1.646-1.347-2.986-2.99-2.986zM2.5 8.875h3v11.625h-3V8.875zm5.5 0H11v1.506h.041c.39-.742 1.342-1.523 2.765-1.523 2.958 0 3.501 1.946 3.501 4.479V20.5h-3V14.5c0-1.378-.027-3.151-1.92-3.151-1.923 0-2.217 1.5-2.217 3.049V20.5h-3V8.875z"/>
-          </svg>
-        </a>
+      <div class="card"><h3>Premium</h3>
+        <p class="tag" style="margin-top:0">R2,500 once-off setup fee</p>
+        <ul>
+          <li>9–15 pages</li>
+          <li>Photo galleries and bookings</li>
+          <li>Priority support</li>
+        </ul>
       </div>
     </div>
-  </footer>
+  </div>
 
-  <script src="script.js"></script>
-</html>
+  <div class="svcgroup">
+    <div class="svclabel">Branding &amp; apparel</div>
+    <p class="lead" style="margin-top:-4px">Custom-printed pieces for your team, an event, or a client gift — designed by the same studio that builds your site.</p>
+    <div class="apparel-grid">
+      <div class="apparel-card">
+        <img src="images/apparel-mugs.jpg" alt="Branded printed mugs" loading="lazy"/>
+        <div class="body">
+          <h3>Mugs</h3>
+          <p>Full-colour logo or design printing on ceramic mugs — great for the office or as a client gift.</p>
+          <span class="tag">Pricing on request</span>
+        </div>
+      </div>
+      <div class="apparel-card">
+        <img src="images/apparel-tshirts.jpg" alt="Branded printed t-shirts" loading="lazy"/>
+        <div class="body">
+          <h3>Shirts</h3>
+          <p>T-shirts and workwear printed or embroidered with your logo — for staff uniforms or event giveaways.</p>
+          <span class="tag">Pricing on request</span>
+        </div>
+      </div>
+      <div class="apparel-card">
+        <img src="https://images.unsplash.com/photo-1588850561407-ed78c282e89b?q=80&w=900&auto=format&fit=crop" alt="Branded printed caps" loading="lazy"/>
+        <div class="body">
+          <h3>Caps</h3>
+          <p>Embroidered caps that keep your brand visible wherever your team goes.</p>
+          <span class="tag">Pricing on request</span>
+        </div>
+      </div>
+    </div>
+    <div class="apparel-note">
+      <p>Prices depend on quantity and design, so we work these out per order.</p>
+      <a class="cta small" href="#quote">Ask about apparel pricing</a>
+    </div>
+  </div>
 
+  <div class="video-card">
+    <div class="video-thumb" role="img" aria-label="Preview of an upcoming studio introduction video">
+      <span class="playdot" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+    </div>
+    <div class="video-body">
+      <span class="notebug">Coming soon</span>
+      <h3 style="margin-top:12px">See how we work</h3>
+      <p>We're putting together a short 60-second walkthrough of how a Brandline Studio project comes together, start to finish. Check back soon — or skip the wait and get a free quote today.</p>
+      <a class="cta small ghost" href="#quote">Get a free quote</a>
+    </div>
+  </div>
+</div></section>
 
+<section id="reviews" class="section"><div class="container">
+  <h2 class="h2">What clients say</h2>
+  <div class="reviews-summary">
+    <span class="stars" aria-hidden="true">
+      <svg viewBox="0 0 20 20"><path d="M10 1l2.6 5.8 6.4.6-4.8 4.3 1.4 6.3L10 14.9 4.4 18l1.4-6.3L1 7.4l6.4-.6z"/></svg>
+      <svg viewBox="0 0 20 20"><path d="M10 1l2.6 5.8 6.4.6-4.8 4.3 1.4 6.3L10 14.9 4.4 18l1.4-6.3L1 7.4l6.4-.6z"/></svg>
+      <svg viewBox="0 0 20 20"><path d="M10 1l2.6 5.8 6.4.6-4.8 4.3 1.4 6.3L10 14.9 4.4 18l1.4-6.3L1 7.4l6.4-.6z"/></svg>
+      <svg viewBox="0 0 20 20"><path d="M10 1l2.6 5.8 6.4.6-4.8 4.3 1.4 6.3L10 14.9 4.4 18l1.4-6.3L1 7.4l6.4-.6z"/></svg>
+      <svg viewBox="0 0 20 20"><path d="M10 1l2.6 5.8 6.4.6-4.8 4.3 1.4 6.3L10 14.9 4.4 18l1.4-6.3L1 7.4l6.4-.6z"/></svg>
+    </span>
+    <span class="notebug">No reviews yet</span>
+  </div>
+  <div class="review-empty">
+    <span class="stars" aria-hidden="true">
+      <svg viewBox="0 0 20 20"><path d="M10 1l2.6 5.8 6.4.6-4.8 4.3 1.4 6.3L10 14.9 4.4 18l1.4-6.3L1 7.4l6.4-.6z"/></svg>
+      <svg viewBox="0 0 20 20"><path d="M10 1l2.6 5.8 6.4.6-4.8 4.3 1.4 6.3L10 14.9 4.4 18l1.4-6.3L1 7.4l6.4-.6z"/></svg>
+      <svg viewBox="0 0 20 20"><path d="M10 1l2.6 5.8 6.4.6-4.8 4.3 1.4 6.3L10 14.9 4.4 18l1.4-6.3L1 7.4l6.4-.6z"/></svg>
+      <svg viewBox="0 0 20 20"><path d="M10 1l2.6 5.8 6.4.6-4.8 4.3 1.4 6.3L10 14.9 4.4 18l1.4-6.3L1 7.4l6.4-.6z"/></svg>
+      <svg viewBox="0 0 20 20"><path d="M10 1l2.6 5.8 6.4.6-4.8 4.3 1.4 6.3L10 14.9 4.4 18l1.4-6.3L1 7.4l6.4-.6z"/></svg>
+    </span>
+    <h3>We're just getting started</h3>
+    <p>Brandline Studio is a new website — this space is saved for the businesses we work with. Be one of our first clients and your review could be the first one here.</p>
+    <a class="cta small" href="#quote">Get a free quote</a>
+  </div>
+  <!--
+    Once you have a real review, replace the .review-empty block above with a card like this
+    (duplicate it for each review):
 
+    <div class="card">
+      <span class="stars" aria-hidden="true">...5 filled star SVGs...</span>
+      <p>"Quote from the client about their experience."</p>
+      <strong>Client name</strong> — <span class="small">Business name, City</span>
+    </div>
+  -->
+</div></section>
 
+<section id="about" class="section alt"><div class="container grid2">
+  <div>
+    <h2 class="h2">About Brandline Studio</h2>
+    <p class="lead">We help South African SMEs build a credible online presence at an affordable price, without cutting corners on quality. Fast turnaround, plain-language communication, and dependable monthly care once your site is live.</p>
+  </div>
+  <div class="card"><h3 style="margin-top:0">How we work</h3>
+    <ul style="margin:0;padding-left:20px;color:#3a3937">
+      <li style="margin:8px 0">A short call to understand what you need</li>
+      <li style="margin:8px 0">A design you approve before we build</li>
+      <li style="margin:8px 0">Build, test, and launch</li>
+      <li style="margin:8px 0">Ongoing care once you're live</li>
+    </ul>
+  </div>
+</div></section>
+
+<section id="faq" class="section"><div class="container">
+  <h2 class="h2">Common questions</h2>
+  <p class="lead">A few things people usually want to know before reaching out.</p>
+  <div class="faq-list">
+    <details class="faq-item">
+      <summary>Do you work with my type of business? <span class="plus">+</span></summary>
+      <div class="faq-answer">Yes — we work with most South African SMEs: retail, services, hospitality, professional services, ministries, and more. If you're not sure whether we're a fit, just ask us.</div>
+    </details>
+    <details class="faq-item">
+      <summary>Can I pay monthly instead of one big upfront cost? <span class="plus">+</span></summary>
+      <div class="faq-answer">Yes, all our website packages are billed monthly, so there's no large lump sum to find upfront.</div>
+    </details>
+    <details class="faq-item">
+      <summary>Do I own my website? <span class="plus">+</span></summary>
+      <div class="faq-answer">Yes — the site and its content are yours. Your monthly fee covers hosting, updates and support while you're an active client.</div>
+    </details>
+    <details class="faq-item">
+      <summary>What if I already have a website? <span class="plus">+</span></summary>
+      <div class="faq-answer">We can redesign or rebuild it, and help move your existing content, images and domain across smoothly.</div>
+    </details>
+    <details class="faq-item">
+      <summary>Can you help with my logo or branding too? <span class="plus">+</span></summary>
+      <div class="faq-answer">Basic branding touches are included with your website. Larger branding projects — like a full logo design — are quoted separately.</div>
+    </details>
+  </div>
+</div></section>
+
+<section id="contact" class="section alt"><div class="container">
+  <h2 class="h2">Get in touch</h2>
+  <p class="lead">Work out a rough monthly price, then send us a message — or reach us directly below.</p>
+  <div class="contactinfo" style="max-width:520px">
+    <p>📞 Call: <a href="tel:+27602645118">+27 60 264 5118</a></p>
+    <p>✉️ Email: <a href="mailto:info@brandlinestudio.co.za">info@brandlinestudio.co.za</a></p>
+    <p class="small">We usually reply within one business day.</p>
+    <div class="contact-quickactions">
+      <a class="cta whatsapp small" href="https://wa.me/27602645118?text=Hi%20Brandline%20Studio%2C%20I%27d%20like%20a%20quote" target="_blank" rel="noopener">💬 WhatsApp us</a>
+      <a class="cta ghost small" href="tel:+27602645118">📞 Call now</a>
+    </div>
+  </div>
+
+  <div class="calcgrid" id="quote">
+    <div class="card">
+      <h3 style="margin-top:0">Estimate your price</h3>
+      <p class="small" style="margin-top:-6px">Just for working out a rough number — no details needed, nothing is sent anywhere.</p>
+      <label for="pkg">Package</label>
+      <select id="pkg">
+        <option value="starter" selected>Starter — from R399/month</option>
+        <option value="business">Business — from R649/month</option>
+        <option value="premium">Premium — from R999/month</option>
+      </select>
+      <div style="margin-top:14px">
+        <div class="checkline">
+          <input type="checkbox" id="hosting"/>
+          <label for="hosting" style="margin:0"><span class="checktext">Hosting + SSL (+R149/month)<span class="hint">Keeps your site online and secure with the padlock icon browsers expect.</span></span></label>
+        </div>
+        <div class="checkline">
+          <input type="checkbox" id="seo"/>
+          <label for="seo" style="margin:0"><span class="checktext">SEO Starter (+R600/month)<span class="hint">Helps your business show up when people search for you on Google.</span></span></label>
+        </div>
+        <div class="checkline">
+          <input type="checkbox" id="care"/>
+          <label for="care" style="margin:0"><span class="checktext">Care Plus (+R400/month)<span class="hint">Ongoing updates and support after your site is live, so you're never on your own.</span></span></label>
+        </div>
+      </div>
+      <div class="estimate">
+        <div class="row"><span>Once-off setup fee</span><span id="est-setup">R1,750</span></div>
+        <div class="row total"><span>Estimated monthly</span><span id="est-month">R399</span></div>
+      </div>
+      <p class="calcnote">This is a rough guide only — we'll confirm exact pricing on a short call. The setup fee is billed once, upfront; the monthly amount starts after that. Ordering apparel? Skip this and just ask us below.</p>
+    </div>
+
+    <div class="card">
+      <h3 style="margin-top:0">Send a message</h3>
+      <p class="small" style="margin-top:-6px">Takes under a minute. We'll reply by email or phone.</p>
+      <form id="contact-form">
+        <label for="intent">What's this about?</label>
+        <select id="intent" name="intent">
+          <option value="Quote request" selected>I'd like a quote</option>
+          <option value="General inquiry">I have a question</option>
+          <option value="Apparel inquiry">Mugs, shirts or caps</option>
+          <option value="Support">I'm an existing client</option>
+        </select>
+
+        <label for="name">Name</label>
+        <input id="name" name="name" placeholder="Your name" required/>
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="you@example.com" required/>
+
+        <label for="phone">Phone (optional)</label>
+        <input id="phone" name="phone" placeholder="For a faster reply"/>
+        <p class="field-hint">Prefer a call back instead of email? Leave your number here.</p>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Tell us what you need" required></textarea>
+
+        <input type="text" name="_honey" class="honey" tabindex="-1" autocomplete="off"/>
+        <input type="hidden" name="_subject" id="formSubject" value="New enquiry — Quote request"/>
+        <input type="hidden" name="_captcha" value="false"/>
+
+        <div style="margin-top:14px">
+          <button class="cta" type="submit" id="sendBtn">Send message</button>
+        </div>
+        <div class="form-success" id="formSuccess" role="status">Thanks! Your message is on its way — we'll get back to you within one business day.</div>
+        <div class="form-error" id="formError" role="alert">Something went wrong sending your message. Please try WhatsApp or email us directly instead.</div>
+      </form>
+    </div>
+  </div>
+</div></section>
+
+</main>
+
+<footer class="footer"><div class="container">
+  <div style="display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between">
+    <div>© <span id="y"></span> Brandline Studio · Cape Town · Websites, branding &amp; apparel for SA businesses</div>
+    <div class="social-links">
+      <a href="https://www.facebook.com/profile.php?id=61591918353035" target="_blank" rel="noopener" aria-label="Brandline Studio on Facebook" class="social-icon">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06c0 5 3.66 9.15 8.44 9.94v-7.03H7.9v-2.91h2.54V9.85c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.44 2.91h-2.34V22c4.78-.79 8.44-4.94 8.44-9.94z"/></svg>
+      </a>
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Brandline Studio on Instagram" class="social-icon">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.16c2.67 0 2.99.01 4.04.06 2.71.12 3.98 1.42 4.1 4.1.05 1.05.06 1.37.06 4.03 0 2.67-.01 2.98-.06 4.03-.12 2.67-1.38 3.98-4.1 4.1-1.05.05-1.37.06-4.04.06-2.67 0-2.99-.01-4.04-.06-2.73-.12-3.98-1.44-4.1-4.1-.05-1.05-.06-1.37-.06-4.03 0-2.67.01-2.98.06-4.03.12-2.68 1.38-3.98 4.1-4.1 1.05-.05 1.37-.06 4.04-.06zM12 0C9.28 0 8.94.01 7.87.06 4.15.23.24 4.13.06 7.86.01 8.94 0 9.28 0 12s.01 3.06.06 4.14c.17 3.72 4.08 7.63 7.81 7.8C8.94 23.99 9.28 24 12 24s3.06-.01 4.14-.06c3.72-.17 7.64-4.08 7.8-7.8.06-1.08.06-1.42.06-4.14s0-3.06-.06-4.14c-.16-3.72-4.08-7.63-7.8-7.8C15.06.01 14.72 0 12 0zm0 5.84A6.16 6.16 0 1 0 12 18.16 6.16 6.16 0 0 0 12 5.84zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.41-10.85a1.44 1.44 0 1 1-2.88 0 1.44 1.44 0 0 1 2.88 0z"/></svg>
+      </a>
+    </div>
+  </div>
+  <div class="footer-legal">
+    <a href="policies/privacy-policy.html">Privacy Policy</a>
+    <a href="policies/terms-of-service.html">Terms of Service</a>
+    <a href="policies/refund-policy.html">Refund Policy</a>
+    <a href="policies/cancellation-policy.html">Cancellation Policy</a>
+  </div>
+</div></footer>
+
+<div class="mobile-actionbar">
+  <a class="cta whatsapp small" href="https://wa.me/27602645118?text=Hi%20Brandline%20Studio%2C%20I%27d%20like%20a%20quote" target="_blank" rel="noopener">💬 WhatsApp</a>
+  <a class="cta small" href="#quote">Get a quote</a>
+</div>
+
+<button class="chat-toggle" id="chatToggle" aria-label="Open chat assistant" aria-expanded="false" aria-controls="chatPanel">
+  <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 5.94 2 10.8c0 2.6 1.3 4.93 3.4 6.55-.12 1.15-.5 2.4-1.24 3.5a.5.5 0 00.58.75c1.9-.6 3.4-1.4 4.4-2.05.9.25 1.87.4 2.86.4 5.52 0 10-3.94 10-8.8S17.52 2 12 2z"/></svg>
+</button>
+
+<div class="chat-panel" id="chatPanel" role="dialog" aria-label="Brandline Studio chat assistant">
+  <div class="chat-head">
+    <div>
+      <strong>Brandline Assistant</strong>
+      <span>Usually replies instantly</span>
+    </div>
+    <button class="chat-close" id="chatClose" aria-label="Close chat">✕</button>
+  </div>
+  <div class="chat-body" id="chatBody" aria-live="polite"></div>
+  <div class="chat-chips" id="chatChips"></div>
+  <div class="chat-inputrow">
+    <label for="chatInput" class="visually-hidden">Type a question</label>
+    <input id="chatInput" type="text" placeholder="Type a question…" autocomplete="off"/>
+    <button class="chat-send" id="chatSend" aria-label="Send message">Send</button>
+  </div>
+  <div class="chat-mode-note" id="chatModeNote"></div>
+</div>
+
+<script src="js/main.js"></script>
+</body></html>
