@@ -1,0 +1,40 @@
+/* Policy pages share css/style.css for colors, fonts, header, footer, and
+   buttons — this file only adds the long-form document layout on top. */
+
+.policy-shell{max-width:820px;margin:0 auto;padding:52px 24px 90px}
+.policy-crumb{font-size:14px;color:#6a6865;text-decoration:none;font-weight:600;display:inline-flex;align-items:center;gap:6px;margin-bottom:20px}
+.policy-crumb:hover{color:var(--copper)}
+.policy-shell h1{font-family:"Plus Jakarta Sans";font-size:36px;font-weight:800;margin:0 0 10px;line-height:1.15}
+.policy-updated{font-size:14px;color:#6a6865;margin:0 0 24px}
+.policy-disclaimer{background:var(--soft);border:1px dashed #D8C4A8;border-radius:12px;padding:18px 20px;font-size:14.5px;color:#5c574f;margin-bottom:32px;line-height:1.55}
+.policy-toc{background:#fff;border:1px solid var(--muted);border-radius:14px;padding:22px 26px;margin-bottom:40px}
+.policy-toc h2{font-family:"Plus Jakarta Sans";font-size:16px;margin:0 0 12px;text-transform:uppercase;letter-spacing:.04em;color:#8a4f1f}
+.policy-toc ol{margin:0;padding-left:20px;columns:2;column-gap:24px}
+.policy-toc li{margin:6px 0;break-inside:avoid}
+.policy-toc a{color:var(--ink);text-decoration:none;font-weight:600;font-size:15px}
+.policy-toc a:hover{color:var(--copper)}
+
+.policy-body section{margin-top:40px;scroll-margin-top:100px}
+.policy-body h2{font-family:"Plus Jakarta Sans";font-size:23px;font-weight:800;margin:0 0 14px}
+.policy-body h3{font-family:"Plus Jakarta Sans";font-size:18px;font-weight:700;margin:22px 0 8px}
+.policy-body p{color:#3a3937;margin:0 0 14px}
+.policy-body ul,.policy-body ol{color:#3a3937;padding-left:22px;margin:0 0 14px}
+.policy-body li{margin:6px 0}
+.policy-body a{color:#8a4f1f;font-weight:600}
+.policy-body strong{color:var(--ink)}
+
+.policy-crosslinks{margin-top:52px;padding-top:28px;border-top:1px solid var(--muted)}
+.policy-crosslinks h2{font-family:"Plus Jakarta Sans";font-size:16px;margin:0 0 14px}
+.policy-crosslinks .links{display:flex;flex-wrap:wrap;gap:10px}
+.policy-crosslinks a{background:var(--soft);border:1px solid var(--muted);border-radius:999px;padding:9px 16px;font-size:14px;font-weight:700;color:var(--ink);text-decoration:none}
+.policy-crosslinks a:hover{border-color:var(--copper);color:#8a4f1f}
+.policy-crosslinks a.current{background:var(--ink);color:#fff;border-color:var(--ink)}
+
+.contact-callout{background:#fff;border:1px solid var(--muted);border-radius:14px;padding:22px 24px;margin-top:16px}
+.contact-callout p{margin:6px 0}
+
+@media(max-width:640px){
+  .policy-shell{padding:36px 16px 70px}
+  .policy-shell h1{font-size:28px}
+  .policy-toc ol{columns:1}
+}
