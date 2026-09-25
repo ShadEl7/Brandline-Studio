@@ -50,7 +50,7 @@ form.addEventListener('submit', async function(e){
   sendBtn.textContent='Sending…';
   try{
     const data=new FormData(form);
-    const res=await fetch('https://formsubmit.co/ajax/brandlinestudio8@gmail.com',{
+    const res=await fetch('https://formsubmit.co/ajax/info@brandlinestudio.co.za',{
       method:'POST',
       headers:{'Accept':'application/json'},
       body:data
